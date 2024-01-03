@@ -1,11 +1,12 @@
 import java.util.*;
-public class Array4.java
+public class Array4
 {
 	public static void main(String[] args) 
 	{
 	   Scanner s=new Scanner(System.in);
 	    int a[],i,n;
-		System.out.println("Enter the size of array");
+	    System.out.println("Enter the size of array");
+	    n=s.nextInt();
 	    a=new int[n];
 	    for(i=0;i<n;i++)
 	    {
